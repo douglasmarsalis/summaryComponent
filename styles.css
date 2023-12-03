@@ -5,7 +5,7 @@
     width: 1440px;
     height: auto;
     margin: 0;
-    padding: 0;
+    padding: 50px;
  }
 
  .container {
@@ -21,34 +21,52 @@
  }
 
  .figure-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 400px;
     width: auto;
     padding: 50px;
-    background-color: hsl(252, 100%, 67%);
+    background: radial-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 15px;
+    color: hsl(0, 0%, 100%);
  }
 
- .number {
-    background-color: hsla(256, 72%, 46%, 1);
+ .circle {
+    background: radial-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 200px;
+    height: auto;
     border-radius: 50%; 
  }
 
+ .circle-score {
+    font-size: 4em;
+ }
+
+/* Figure 2 Information*/
 .figure-2 {
-      height: 400px;
-      width: auto;
-      padding: 50px;
-      background-color: whitesmoke;
-      border-top-right-radius: 15px;
-      border-bottom-right-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    padding: 50px;
+    background-color: whitesmoke;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
 
 .item-1 {
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: space-between;
-    gap: 200px;
     background-color: lightpink;
-    padding: 5px;
+    margin-top: 10px;
+    padding: 0 10px ;
+    border-radius: 5px;
+    gap: 200px;
   }
 
 .item-1-title {
@@ -58,8 +76,11 @@
 .item-2 {
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
+    align-items: space-between; 
     background-color: lightyellow;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
 .item-2-title {
@@ -71,6 +92,9 @@
     justify-content: space-between;
     align-items: space-between;
     background-color: lightgreen;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
 .item-3-title {
@@ -82,16 +106,32 @@
     justify-content: space-between;
     align-items: space-between;
     background-color: lightblue;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-radius: 5px;
 }
 
 .item-4-title {
     color: blue;
 }
 
+/*button*/
+.btn {
+    background-color: hsl(241, 81%, 54%);
+    color: antiquewhite;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
  /*Footer*/
  .attribution {
      font-size: 11px;
      text-align: center;
+     margin-top: 20px;
  }
 
  .attribution a {
