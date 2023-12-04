@@ -1,11 +1,13 @@
- /* Feel free to remove these styles or customise in your own stylesheet */
- 
+@font-face {
+    font-family: Hanken Grotesk;
+    src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
+}
+
  html, body {
     background-color: hsl(221, 100%, 96%);
-    width: 1440px;
-    height: auto;
+    height: 100vh;
     margin: 0;
-    padding: 50px;
+    font-family: Hanken Grotesk, sans-serif, serif;
  }
 
  .container {
@@ -34,14 +36,19 @@
  }
 
  .circle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background: radial-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
-    width: 200px;
-    height: auto;
+    width: 250px;
+    height: 250px;
+    padding-top: 30px;
     border-radius: 50%; 
  }
 
  .circle-score {
-    font-size: 4em;
+    font-size: 6em;
+    margin: 0;
  }
 
 /* Figure 2 Information*/
@@ -54,19 +61,19 @@
     width: auto;
     padding: 50px;
     background-color: whitesmoke;
+    border: solid grey 1px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
   }
 
 .item-1 {
     display: flex;
-    justify-content: space-between;
-    align-items: space-between;
+    /* justify-content: space-between;
+    align-items: space-between; */
     background-color: lightpink;
     margin-top: 10px;
     padding: 0 10px ;
     border-radius: 5px;
-    gap: 200px;
   }
 
 .item-1-title {
@@ -129,9 +136,9 @@
 
  /*Footer*/
  .attribution {
-     font-size: 11px;
+     font-size: 14px;
      text-align: center;
-     margin-top: 20px;
+     margin-top: 25px;
  }
 
  .attribution a {
