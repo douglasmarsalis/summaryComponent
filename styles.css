@@ -14,13 +14,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 700px;
+    width: 900px;
     height: auto; 
     margin: auto;
     margin-top: 200px;
-    box-shadow: 20px 20px 5px hsl(204, 58%, 90%);
     border-radius: 15px;
-    ;
+    box-shadow: 20px 20px 5px hsl(204, 58%, 90%);
  }
 
  .figure-1 {
@@ -141,7 +140,7 @@
 
 /*button*/
 .btn {
-    background-color: hsl(241, 81%, 54%);
+    background-color: hsl(224, 30%, 27%);
     color: antiquewhite;
     border: none;
     padding: 15px;
