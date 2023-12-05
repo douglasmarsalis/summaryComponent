@@ -17,6 +17,7 @@
     width: 700px;
     height: auto; 
     margin: auto;
+    margin-top: 200px;
     box-shadow: 20px 20px 5px hsl(204, 58%, 90%);
     border-radius: 15px;
     ;
@@ -62,32 +63,60 @@
     padding: 50px;
     background-color: whitesmoke;
     border: solid grey 1px;
+    border-left: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
   }
 
-.item-1 {
+/*Figure 2 Item Information*/  
+.item-1,
+.item-2,
+.item-3,
+.item-4 {
     display: flex;
     /* justify-content: space-between;
     align-items: space-between; */
-    background-color: lightpink;
     margin-top: 10px;
     padding: 0 10px ;
     border-radius: 5px;
   }
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+    display: flex;
+    justify-self: flex-start;
+}
+
+.item-1-title,
+.item-2-title,
+.item-3-title,
+.item-4-title {
+    display: flex;
+    justify-self: flex-start;
+    padding-left: 5px;
+    padding-right: 200px;
+}
+
+.item-1-score,
+.item-2-score,
+.item-3-score,
+.item-4-score {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.item-1 {
+    background-color: lightpink;
+}
 
 .item-1-title {
     color: red;
 }
 
 .item-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between; 
     background-color: lightyellow;
-    margin-top: 10px;
-    padding: 0 10px;
-    border-radius: 5px;
 }
 
 .item-2-title {
@@ -95,13 +124,7 @@
 }
 
 .item-3 {
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between;
     background-color: lightgreen;
-    margin-top: 10px;
-    padding: 0 10px;
-    border-radius: 5px;
 }
 
 .item-3-title {
@@ -109,13 +132,7 @@
 }
 
 .item-4 {
-    display: flex;
-    justify-content: space-between;
-    align-items: space-between;
     background-color: lightblue;
-    margin-top: 10px;
-    padding: 0 10px;
-    border-radius: 5px;
 }
 
 .item-4-title {
